@@ -2,8 +2,8 @@ import java.util.Scanner;
 /**
  * This application converts between various units of measurement.
  *
- * @author Tim Gesell
- * @version 8/21/2022
+ * @author feild12-r
+ * @version 8/23/2024
  */
 public class Conversions
 {
