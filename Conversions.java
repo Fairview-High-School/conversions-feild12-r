@@ -37,7 +37,7 @@ public class Conversions
             System.out.println("Enter Fahrenheit: ");
             double fahrenheit = keyboard.nextDouble();
             keyboard.nextLine();
-            double celsius = fahrenheit * (5.0 / 9.0) - 32;
+            double celsius = (fahrenheit - 32) * (5.0 / 9.0);
             System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celsius");
         }
         //add more if statements here.
