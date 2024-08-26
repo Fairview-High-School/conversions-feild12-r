@@ -46,8 +46,32 @@ public class Conversions
             System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double meter = feet/3.281;
-            System.out.println(feet + " feet is " + meter + " meters");
+            double meters = feet/3.281;
+            System.out.println(feet + " feet is " + meters + " meters");
+        }
+        if (selection == 4)
+        {
+            System.out.println("Enter Meters: ");
+            double meters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = meters*3.281;
+            System.out.println(meters + " meters is " + feet + " feet");
+        }
+        if (selection == 5)
+        {
+            System.out.println("Enter Ounces: ");
+            double ounces = keyboard.nextDouble();
+            keyboard.nextLine();
+            double milliters = ounces*29.574;
+            System.out.println(ounces + " ounces is " + milliters + " milliters");
+        }
+        if (selection == 6)
+        {
+            System.out.println("Enter Milliters: ");
+            double milliters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double ounces = milliters/29.574;
+            System.out.println(milliters + " milliters is " + ounces + " ounces");
         }
     }
 }
