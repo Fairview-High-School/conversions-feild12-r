@@ -41,5 +41,13 @@ public class Conversions
             System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celsius");
         }
         //add more if statements here.
+        if (selection == 3)
+        {
+            System.out.println("Enter Feet: ");
+            double feet = keyboard.nextDouble();
+            keyboard.nextLine();
+            double meter = feet/3.281;
+            System.out.println(feet + " feet is " + meter + " meters");
+        }
     }
 }
