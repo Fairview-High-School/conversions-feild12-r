@@ -98,7 +98,7 @@ public class Conversions
             System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double yards = feet/12;
+            double yards = feet/3;
             System.out.println(feet + " feet is " + yards + " yards");
         }
         if (selection == 10)
@@ -106,7 +106,7 @@ public class Conversions
             System.out.println("Enter Yards: ");
             double yards = keyboard.nextDouble();
             keyboard.nextLine();
-            double feet = yards/12;
+            double feet = yards*3;
             System.out.println(yards + " yards is " + feet + " feet");
         }
     }
